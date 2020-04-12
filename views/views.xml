@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+  <data>
+    <record id="audio_field_action" model="ir.actions.client">
+      <field name="name">Audio Field</field>
+      <field name="tag">audio_field</field>
+    </record>
+    <menuitem name="Audio" id="audio_menu_root" action="audio_field_action"></menuitem>
+  </data>
+</odoo>
